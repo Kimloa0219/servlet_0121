@@ -19,7 +19,14 @@
 		<label>하와이안피자<input type="checkbox" name="food" value="하와이안피자"></label>
 		<label>번데기<input type="checkbox" name="food" value="번데기"></label>
 		<br>
-		
+		4. 좋아하는 과일을 선택하세요 <br>
+		<select name="fruit">
+			<option value="apple">사과</option>
+			<option value="banana">바나나</option>
+			<option value="peach">복숭아</option>
+			<option value="strawberry">딸기</option>
+		</select>
+		<br>
 		<button type="submit">전달</button>
 		
 	
