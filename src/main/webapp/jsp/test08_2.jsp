@@ -63,6 +63,7 @@
     	int id = Integer.parseInt(request.getParameter("id"));
     	
 		Map<String, Object> target = null;
+		
     	for(Map<String, Object> book : list) {
     		if(id ==(Integer)book.get("id")){
     			target = book;
